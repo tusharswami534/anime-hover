@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    } 
+  </script>
+
+</head>
+<body>
+  <section class="min-h-screen flex justify-center items-center">
+  <div class="card w-60 relative card cursor-pointer">
+    <img src="./assets/anime.png" alt="img" class="w-full object-cover card-img">
+    <img src="./assets/anime-removebg-preview.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
+  </div>
+  </section>
+</body>
+</html>
