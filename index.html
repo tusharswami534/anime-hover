@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <!-- Primary Meta Tags -->
+<title>Anime Card Hover</title>
+<meta name="title" content="Anime Card Hover" />
+<meta name="description" content="here Tomarai witnessed his grandfather standing underneath the oak tree with its leaves fall at a leisurely pace. Heron Kobayashi, Ichiro’s grandfather places his right hand on the boys'" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://animehover.netlify.app/" />
+<meta property="og:title" content="Anime Card Hover" />
+<meta property="og:description" content="here Tomarai witnessed his grandfather standing underneath the oak tree with its leaves fall at a leisurely pace. Heron Kobayashi, Ichiro’s grandfather places his right hand on the boys'" />
+<meta property="og:image" content="/meta-image.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://animehover.netlify.app/" />
+<meta property="twitter:title" content="Anime Card Hover" />
+<meta property="twitter:description" content="here Tomarai witnessed his grandfather standing underneath the oak tree with its leaves fall at a leisurely pace. Heron Kobayashi, Ichiro’s grandfather places his right hand on the boys'" />
+<meta property="twitter:image" content="/meta-image.png" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
   <script>
     tailwind.config = {
       theme: {
@@ -21,10 +44,45 @@
 </head>
 <body>
   <section class="min-h-screen flex justify-center items-center">
-  <div class="card w-60 relative card cursor-pointer">
-    <img src="./assets/anime.png" alt="img" class="w-full object-cover card-img">
-    <img src="./assets/anime-removebg-preview.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
-  </div>
+    <div class="swiper !py-[70px] mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card w-60 relative card cursor-pointer">
+            <img src="./assets/images/Png/anime-image.png" alt="img" class="w-full object-cover card-img">
+            <img src="./assets/images/Png/anime-bg-remove.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card w-60 relative card cursor-pointer">
+            <img src="./assets/images/Png/anime-image-2.png" alt="img" class="w-full object-cover card-img">
+            <img src="./assets/images/Png/anime-bg-remove-2.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
+          </div>        
+        </div>
+        <div class="swiper-slide">
+          <div class="card w-60 relative card cursor-pointer">
+            <img src="./assets/images/Png/anime-image-3.png" alt="img" class="w-full object-cover card-img">
+            <img src="./assets/images/Png/anime-bg-remove-3.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card w-60 relative card cursor-pointer">
+            <img src="./assets/images/Png/anime-image-4.png" alt="img" class="w-full object-cover card-img">
+            <img src="./assets/images/Png/anime-bg-remove-4.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
+          </div> 
+        </div>
+        <div class="swiper-slide">
+          <div class="card w-60 relative card cursor-pointer">
+            <img src="./assets/images/Png/anime-image-5.png" alt="img" class="w-full object-cover card-img">
+            <img src="./assets/images/Png/anime-bg-remove-5.png" alt="img" class="absolute top-0 card-img-2 z-10 w-full">
+          </div> 
+        </div>
+        
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./assets/js/app.js">
+  </script>
 </body>
 </html>
